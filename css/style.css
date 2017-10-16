@@ -1,0 +1,69 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background: #111;
+	color: #111;
+	font-size: 1.5vh;
+	font-family: Raleway ExtraLight;
+	text-transform: uppercase;
+}
+
+h1 {
+	text-align: center;
+	text-transform: lowercase;
+	font-family: sans-serif;
+	margin: auto;
+	color: #fff;
+	font-family: Raleway ExtraLight;
+	font-weight: thin;
+	padding-top: 15vh;
+}
+
+#main {
+	margin: 0;
+	padding: 0;
+	padding-top: 25vh;
+	height: auto;
+	width: 100%;
+}
+
+#board {
+	padding: 0;
+	margin: auto;
+	width: 33vh;
+	height: 33vh;
+}
+
+#win {
+	color: #111;
+	text-align: center;
+}
+
+.tile {
+	padding: 0;
+	margin: 0.5vh;
+	height: 10vh;
+	width: 10vh;
+	border-radius: 2px;
+	background: #fff;
+	cursor: pointer;
+	float: left;
+}
+
+.button {
+	margin: 0.5vh;
+	padding: 0;
+	height: 5vh;
+	line-height: 5vh;
+	vertical-align: middle;
+	width: 32vh;
+	background: #fff;
+	text-align: center;
+	border-radius: 2px;
+	cursor: pointer;
+	float: left;
+	font-family: Raleway Light;
+}
+
+
+
